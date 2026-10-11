@@ -1,0 +1,43 @@
+{
+  "name": "@arraypress/image-fit",
+  "version": "1.0.0",
+  "description": "Fit a picture someone chose to an upload's rules (types, bytes, longest side) in the browser, before it's sent: kept as is when it fits, else redrawn on a canvas as a PNG or a JPEG, smaller until it does.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "keywords": [
+    "image",
+    "resize",
+    "compress",
+    "canvas",
+    "upload",
+    "browser",
+    "jpeg",
+    "png",
+    "webp"
+  ],
+  "author": "David Sherlock",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arraypress/image-fit.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
